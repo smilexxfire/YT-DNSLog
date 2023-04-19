@@ -32,7 +32,7 @@ class Server(socketserver.ThreadingMixIn, socketserver.UDPServer):
             server_thread = threading.Thread(target=self.serve_forever)
             server_thread.daemon = True
             server_thread.start()
-            print('The DNS server is running at 0.0.0.0...')
+            print('The DNS server is running at 0.0.0.0:53...')
             server_thread.join()
 
 
