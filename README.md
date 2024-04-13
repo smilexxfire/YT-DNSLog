@@ -17,10 +17,11 @@ git clone https://github.com/smilexxfire/YT-DNSLog.git
 ```
 python3 main.py
 ```
-发起DNS查询试试，成功接收到请求
+配置完成后运行程序，域名*.ns1.youdomain.com均会被程序获取
 
+以查询test.log.youdomain.com为例
 ![image-20230419183227801](https://qiniu.xxf.world/pic/2023/04/19/6301e205-2019-470c-998f-eaed2237dfed.png)
-
+获取到dns查询记录
 ![image-20230419171443292](https://qiniu.xxf.world/pic/2023/04/19/0b568262-403f-4d35-859b-41127c4dcb8c.png)
 
 ## 备注
